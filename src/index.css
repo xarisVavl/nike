@@ -56,3 +56,11 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+
+
+@font-face {
+  font-family: 'FuturaNike';
+  src: url('src/assets/constants/FuturaStd-CondExtraBoldObl.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

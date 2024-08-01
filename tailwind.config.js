@@ -20,6 +20,7 @@ export default {
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
+        futura: ['FuturaNike', 'sans-serif'],
       },
       colors: {
         'primary': "#ECEEFF",

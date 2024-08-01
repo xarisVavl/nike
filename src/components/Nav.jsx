@@ -1,6 +1,7 @@
 import {headerLogo} from '../assets/images';
 import {hamburger} from '../assets/icons';
 import { navLinks } from '../assets/constants';
+import { Link } from "react-router-dom";
 const Nav = () => {
   return ( 
 
@@ -16,9 +17,9 @@ const Nav = () => {
 
         {navLinks.map((item) => (
           <li key={item.label}>
-            <a href={item.href} className="fonts-montserrat leading-normal text-lg text-slate-gray">
-              {item.label}
-            </a>
+           
+                <Link to ={item.href} className="fonts-montserrat leading-normal text-lg text-slate-gray"> {item.label}</Link>
+       
           </li>
         ))}
 
